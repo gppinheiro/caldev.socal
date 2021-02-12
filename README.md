@@ -24,5 +24,3 @@ You can download our app at https://easyupload.io/icksag . It only works in Andr
 
 Also, you can access our server in any part of the world. Server is allocated at Heroku. 
 Link: https://socal-caldev.herokuapp.com/api
-
-In addition, we have our deliverables are at WIKI.
