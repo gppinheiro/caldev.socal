@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/CalendarMenu"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/EventsMenu"
+        android:icon="@drawable/ic_events_list"
+        android:title="Events" />
+    <item
+        android:id="@+id/GroupsMenu"
+        android:icon="@drawable/ic_people"
+        android:title="Groups" />
+    <item
+        android:id="@+id/SettingsMenu"
+        android:icon="@drawable/ic_settings"
+        android:title="Profile" />
+</menu>

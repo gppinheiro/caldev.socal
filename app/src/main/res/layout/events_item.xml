@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/EventColourImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/EventNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/EventColourImageView"
+            android:layout_toRightOf="@+id/EventColourImageView"
+            android:text="Name"
+            android:maxLength="29"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/EventTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EventNameTextView"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/EventColourImageView"
+            android:layout_toRightOf="@+id/EventColourImageView"
+            android:text="Type"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/EventStartDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/EventStartTimeTextView"
+            android:layout_toRightOf="@+id/EventStartTimeTextView"
+            android:text="Start Date"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/EventEndDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EventStartDateTextView"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/EventStartTimeTextView"
+            android:layout_toRightOf="@+id/EventStartTimeTextView"
+            android:text="End Date"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/EventStartTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="189dp"
+            android:layout_marginLeft="189dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/EventColourImageView"
+            android:layout_toRightOf="@+id/EventColourImageView"
+            android:text="Start Hour"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/EventEndTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EventStartTimeTextView"
+            android:layout_marginStart="192dp"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/EventColourImageView"
+            android:layout_toRightOf="@+id/EventColourImageView"
+            android:text="End Hour"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
