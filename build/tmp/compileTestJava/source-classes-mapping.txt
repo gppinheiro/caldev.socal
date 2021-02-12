@@ -1,0 +1,2 @@
+com/caldev/cal/CalApplicationTest.java
+ com.caldev.cal.CalApplicationTest
